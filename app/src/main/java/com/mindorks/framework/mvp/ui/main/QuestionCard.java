@@ -81,10 +81,10 @@ public class QuestionCard {
 
             if (button != null)
                 button.setText(mQuestion.getOptionList().get(i).getOptionText());
+        }
 
-            if (mQuestion.getImgUrl() != null) {
-                mPicImageView.setImageUrl(mQuestion.getImgUrl());
-            }
+        if (mQuestion.getImgUrl() != null) {
+            mPicImageView.setImageUrl(mQuestion.getImgUrl());
         }
     }
 
